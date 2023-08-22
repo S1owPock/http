@@ -4,8 +4,6 @@ export default function runRequest(options = {}) {
       headers, data, responseType, method,
     } = options;
 
-    const url = 'https://ahj-http-help-desk.herokuapp.com/';
-
     const params = new URLSearchParams();
 
     for (const key in data) {
